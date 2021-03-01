@@ -1,0 +1,20 @@
+package com.company;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Daj A:");
+        int a = scanner.nextInt();
+        System.out.println("Daj B:");
+        int b = scanner.nextInt();
+        System.out.println("Daj C:");
+        int c = scanner.nextInt();
+
+        if (a + b > c){
+            System.out.println("Tak");
+        }else{
+            System.out.println("Nie");
+        }
+    }
+}
